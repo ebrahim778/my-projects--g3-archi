@@ -4,3 +4,63 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+/* header */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+
+.nav-title{
+    font-size: 3rem;
+    color: var(--Dark-01, #131313);
+    font-weight: 700;
+
+}
+nav > ul{
+    display: flex;   
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+font-size: 1rem;
+font-weight: 500;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+/* banner style */
+
+.banner-content{
+    color: var(--Dark-01, #131313);
+text-align: center;
+max-width: 700px;
+border:2px solid black;
+margin: 0 auto;
+}
+.banner-head{
+color: var(--Dark-01, #131313);
+text-align: center;
+font-weight: 700;
+font-size:4rem;
+}
+.banner-discription{
+    color: var(--Dark-03, #727272);
+font-size: 1rem;
+font-weight: 400;
+}
+.bttn-explore{
+    color: #FFF;
+
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
