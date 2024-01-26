@@ -26,7 +26,7 @@ nav > ul{
 nav li{
     list-style: none;
     margin-right: 23px;
-font-size: 1rem;
+font-size: 2rem;
 font-weight: 500;
 }
 nav li a {
@@ -50,7 +50,7 @@ font-size:4rem;
 }
 .banner-discription{
     color: var(--Dark-03, #727272);
-font-size: 1rem;
+font-size: 2rem;
 font-weight: 400;
 }
 .bttn-explore{
@@ -129,8 +129,19 @@ cursor: pointer;
 }
 .facts-card-container .card-title{
     color:#727272;
-    font-size: 1.5rem;
+    font-size: 2em;
     margin-top: 5px;
+}
+.sponsor-section{
+    align-items: center;   
+}
+.section-discription{
+    font-size: 2rem
+}
+.sponsor-img{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -144,7 +155,7 @@ cursor: pointer;
        }
        nav,
        .teams-contaner,
-       .facts-card-container{
+       .facts-card-container,{
            flex-direction:column;
        }
        .teams-img-cntainer{
@@ -162,6 +173,7 @@ cursor: pointer;
         padding-right: 70px;
         }
 
+        
 
     @media screen and (min-width:576px) and (max-width:960px) {
         header{
